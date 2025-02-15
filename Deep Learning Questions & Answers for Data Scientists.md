@@ -68,22 +68,22 @@ Autoencoders are a type of neural network architecture used primarily for unsupe
   
 Autoencoders consist of two main parts:
 
-Encoder: Compresses the input data into a smaller, latent representation (also called a bottleneck or latent space).
-Decoder: Reconstructs the original input from the compressed representation.
+1. Encoder: Compresses the input data into a smaller, latent representation (also called a bottleneck or latent space).
+2. Decoder: Reconstructs the original input from the compressed representation.
 The network is trained to minimize the difference between the input and the reconstructed output, often using a loss function like Mean Squared Error (MSE).
 
-Types of Autoencoders
-Vanilla Autoencoder – Basic architecture with fully connected layers.
-Denoising Autoencoder – Learns to remove noise from input data.
-Sparse Autoencoder – Uses sparsity constraints to encourage learning of useful features.
-Variational Autoencoder (VAE) – Generates new data by learning a probabilistic distribution of the input.
-Convolutional Autoencoder – Uses convolutional layers for image-based data compression and reconstruction.
-Applications of Autoencoders
-Dimensionality Reduction: Similar to PCA but more powerful for non-linear data.
-Anomaly Detection: Identifies unusual patterns by analyzing reconstruction errors.
-Image Denoising: Removes noise while preserving important features.
-Generative Models: VAEs are used to generate new data samples.
-Feature Extraction: Learns meaningful features for downstream tasks like classification.
+* Types of Autoencoders
+1. Vanilla Autoencoder – Basic architecture with fully connected layers.
+2. Denoising Autoencoder – Learns to remove noise from input data.
+3. Sparse Autoencoder – Uses sparsity constraints to encourage learning of useful features.
+4. Variational Autoencoder (VAE) – Generates new data by learning a probabilistic distribution of the input.
+5. Convolutional Autoencoder – Uses convolutional layers for image-based data compression and reconstruction.
+* Applications of Autoencoders
+1. Dimensionality Reduction: Similar to PCA but more powerful for non-linear data.
+2. Anomaly Detection: Identifies unusual patterns by analyzing reconstruction errors.
+3. Image Denoising: Removes noise while preserving important features.
+4. Generative Models: VAEs are used to generate new data samples.
+5. Feature Extraction: Learns meaningful features for downstream tasks like classification.
 
 
 ### Q2: What is an activation function and discuss the use of an activation function? Explain three different types of activation functions? ###
