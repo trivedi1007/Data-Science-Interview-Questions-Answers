@@ -64,7 +64,7 @@ Answer:
 
 Autoencoders are one of the deep learning types used for unsupervised learning. There are key layers of autoencoders, which are the input layer, encoder, bottleneck hidden layer, decoder, and output.
 
-The three layers of the autoencoder are:-
+The three layers of the autoencoder are:
 1) Encoder - Compresses the input data to an encoded representation which is typically much smaller than the input data.
 2) Latent Space Representation/ Bottleneck/ Code - Compact summary of the input containing the most important features
 3) Decoder - Decompresses the knowledge representation and reconstructs the data back from its encoded form.
