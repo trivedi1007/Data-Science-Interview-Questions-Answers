@@ -62,20 +62,27 @@
 
 Answer:
 
-Autoencoders are one of the deep learning types used for unsupervised learning. There are key layers of autoencoders, which are the input layer, encoder, bottleneck hidden layer, decoder, and output.
+Autoencoders are a type of neural network architecture used primarily for unsupervised learning. They are designed to learn efficient representations of data by encoding the input into a lower-dimensional space and then reconstructing it back to its original form.
 
-The three layers of the autoencoder are:
-1) Encoder - Compresses the input data to an encoded representation which is typically much smaller than the input data.
-2) Latent Space Representation/ Bottleneck/ Code - Compact summary of the input containing the most important features
-3) Decoder - Decompresses the knowledge representation and reconstructs the data back from its encoded form.
-Then a loss function is used at the top to compare the input and output images.
-NOTE- It's a requirement that the dimensionality of the input and output be the same. Everything in the middle can be played with.
+How Autoencoders Work
+Autoencoders consist of two main parts:
 
-Autoencoders have a wide variety of usage in the real world. The following are some of the popular ones:
+Encoder: Compresses the input data into a smaller, latent representation (also called a bottleneck or latent space).
+Decoder: Reconstructs the original input from the compressed representation.
+The network is trained to minimize the difference between the input and the reconstructed output, often using a loss function like Mean Squared Error (MSE).
 
-1. Transformers and Big Bird (Autoencoders is one of these components in both algorithms): Text Summarizer, Text Generator
-2. Image compression
-3. Nonlinear version of PCA
+Types of Autoencoders
+Vanilla Autoencoder – Basic architecture with fully connected layers.
+Denoising Autoencoder – Learns to remove noise from input data.
+Sparse Autoencoder – Uses sparsity constraints to encourage learning of useful features.
+Variational Autoencoder (VAE) – Generates new data by learning a probabilistic distribution of the input.
+Convolutional Autoencoder – Uses convolutional layers for image-based data compression and reconstruction.
+Applications of Autoencoders
+Dimensionality Reduction: Similar to PCA but more powerful for non-linear data.
+Anomaly Detection: Identifies unusual patterns by analyzing reconstruction errors.
+Image Denoising: Removes noise while preserving important features.
+Generative Models: VAEs are used to generate new data samples.
+Feature Extraction: Learns meaningful features for downstream tasks like classification.
 
 
 ### Q2: What is an activation function and discuss the use of an activation function? Explain three different types of activation functions? ###
