@@ -64,7 +64,7 @@ Answer:
 
 Autoencoders are a type of neural network architecture used primarily for unsupervised learning. They are designed to learn efficient representations of data by encoding the input into a lower-dimensional space and then reconstructing it back to its original form.
 
-How Autoencoders Work
+* How Autoencoders Work
 Autoencoders consist of two main parts:
 
 Encoder: Compresses the input data into a smaller, latent representation (also called a bottleneck or latent space).
